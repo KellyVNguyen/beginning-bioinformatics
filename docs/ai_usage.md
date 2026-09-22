@@ -1,11 +1,8 @@
 # AI Use Log
-- **Tool/model & version**: Google Gemini (3.6 Flash).
-- **What I asked for**: I asked for assistance on tasks from the lecture content that specifically said to use Gemini or general questions about Python. Instances of these include asking Gemini "how to insert an item at index 1 in the list" and giving examples to practice understanding assignment operators.
+- **Tool/model & version**: GPT-5.6 Luna.
+- **What I asked for**: I asked for assistance on tasks from the lecture content that specifically said to use ChatGPT or general questions about the lecture. Examples include asking about doing an alignment using MAFFT in Colab and figuring out ways to compare alignments from Bridges2 and MAFFT in Colab
 - **Snippet of prompt(s)**:
-  - "Give me a brief test to be sure biopython is installed correctly"
-  - "How to insert an item at index 1 in the list"
-  - "Provide examples of each data type of the variables in Python to see how they look as outputs."
-  - "Help me understand the syntax and functions used in Biopython"
-- **What I changed before committing**: Some things I changed before committing include renaming variables and the style of some of the code. I changed a few of the codes that the AI generated to make it more simple so that the syntax is easier to follow along.
-- **How I verified correctness (tests, sample data)**: For questions containing math, I verified correctness by solving the math manually. For tasks regarding lists, I would compare the original list with the modified list to check if I replaced and/or appended any elements correctly. For tasks that uses txt files, I would go through each line of code to ensure that the code syntax executes the correct output of the code. For the tasks that says to transcribe DNA to RNA and translate RNA to Protein, I would compare the sample dataset to the output and check if the code correctly transcribed and translated the dataset.
-
+  - "What are ways I can compare the alignments from MUSCLE on Bridges2 and MAFFT in Colab?"
+  - "How can I evaluate the muscle alignments and extract the best one from running the efastats command and maxcc command?"
+- **What I changed before committing**: I did not make changes before committing. I mostly used ChatGPT to check and evaluate my analysis and comparisons of the muscle alignments.
+- **How I verified correctness (tests, sample data)**: For coding, I verified correctness by analyzing the syntax of the code and check if the output is what I expected. Another way I verified correctness is by comparing the outputs from the Colab notebook to the results I got from Bridges2 (results from efastats and maxcc) and the NCBI Alignment Viewer.
